@@ -1,0 +1,18 @@
+header {
+  transition: 0.5s;
+  animation: loaderDown 1s 0s 1 ease-out ;
+}
+
+header:hover {
+  box-shadow: 3px 5px #C0C0C0;    
+}
+
+
+@keyframes loaderDown {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
