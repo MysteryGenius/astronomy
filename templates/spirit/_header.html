@@ -20,7 +20,7 @@
 </style>
 
     <header class="header js-tabs-container">
-		<a class="header-logo" href="{% url "spirit:index" %}">{{ config.site_name }}</a>
+		<a class="header-logo" href="{% url "spirit:index" %}" style="font-size: 25px;">{{ config.site_name }}</a>
 
         {% if user.is_authenticated %}
             {% has_topic_notifications user as has_notifications %}
